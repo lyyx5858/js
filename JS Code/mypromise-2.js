@@ -34,6 +34,7 @@ promise((ok, no) => {
 });
 
 // 上面是下面写法的简写:
+// 此处，ok和no都是形参，当a函数被调用时，必须提供ok和no所代表的实参。
 const a = function (ok, no) {
   ok("123");
   no("456");
